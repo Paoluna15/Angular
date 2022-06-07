@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-style: outset;
+    background-color: rgb(37, 22, 78);
+    font-size: 25px;
+    color: beige;
+    font-family: fantasy;
+}
+a{
+   color: beige;
+}
