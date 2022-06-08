@@ -10,6 +10,8 @@ import { NosotrosHComponent } from './nosotros-h/nosotros-h.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ContactoHComponent } from './contacto-h/contacto-h.component';
 import { NavComponent } from './nav/nav.component';
+import { CotizacionComponent } from './cotizacion/cotizacion.component';
+import { CotizacionHComponent } from './cotizacion-h/cotizacion-h.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NavComponent } from './nav/nav.component';
     NosotrosHComponent,
     ContactoComponent,
     ContactoHComponent,
-    NavComponent
+    NavComponent,
+    CotizacionComponent,
+    CotizacionHComponent
   ],
   imports: [
     BrowserModule,
