@@ -1,12 +1,30 @@
 nav{
-    display: flex;
-    justify-content: space-around;
-    border-style: outset;
-    background-color: rgb(37, 22, 78);
-    font-size: 25px;
-    color: beige;
-    font-family: fantasy;
+    background-color: rgb(25, 25, 102);
+    overflow: hidden;
 }
-a{
-   color: beige;
+nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+nav a:hover{
+    background-color: #ddd;
+    color: rgb(43, 43, 139);
+}
+nav a.inicio{
+    background-color: #90b0ce;
+    color: white;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
 }

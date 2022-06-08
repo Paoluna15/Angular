@@ -11,7 +11,7 @@ export class ContactoHComponent  {
  imagen:string= ""
  
  mostrarimagen(){
-  this.imagen="mostar"
+ this.imagen="mostar"
  }
 ocultarimagen(){
   this.imagen="ocultar"
