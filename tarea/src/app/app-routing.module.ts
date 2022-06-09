@@ -8,7 +8,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 const routes: Routes = [{path:"home",component:HomeComponent},
 {path:"nosotros",component:NosotrosComponent},
 {path:"contacto",component:ContactoComponent},
-{path:"cotizacion",component:CotizacionComponent}];
+{path:"cotizacion",component:CotizacionComponent},
+{path:"",component:HomeComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

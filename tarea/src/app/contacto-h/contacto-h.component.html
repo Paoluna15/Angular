@@ -1,15 +1,11 @@
 
 <div>
-    <img *ngIf="imagen=='mostrar'"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsraaTWCPBShngWTChlavllPsevxivhGqUt8zU_ib9i81JnTWwgcYSifcDuse0I450tCM&usqp=CAU" alt="">
+    <img *ngIf="mostrarimagen"  src="/assets/imagenes/foto.jpg">
     <br>
-    <button (click)="mostrarimagen()">Mostrar/Ocultar</button>
-    <h1>Nombre:{{nombre}}</h1>
+    <button (click)="ocultarimagen()" >Mostrar/Ocultar</button>
+    <h1>{{nombre}}</h1>
     <ul>
-        <li>
-            <p>Administración de Empresas</p>
-            <p>Contaduría</p>
-            <p>Auditoría</p>
-        </li>
+        <li *ngFor="let item of servicios">{{item}}</li>
     </ul>
 
 </div>

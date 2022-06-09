@@ -8,12 +8,16 @@ form{
     padding: 16px;
     border-radius: 10px;
     margin: auto;
-    background-color: rgb(223, 220, 233);
+    background-color:#90b0ce ;
+    color: rgb(37, 22,78);
 }
 form label{
     width: 72px;
     font-weight: bold;
     display: inline-block;
+}
+form label[asunto]{
+    padding:20px 40px ;
 }
 form input[type="text"],
 form input[type="email"]{
@@ -21,7 +25,7 @@ form input[type="email"]{
     padding: 3px 10px;
     border: 1px solid rgb(122, 186, 223);
     border-radius: 3px;
-    background-color: rgb(75, 62, 110);
+    background-color: whitesmoke;
     margin: 8px 0;
     display: inline-block;
 }
@@ -34,7 +38,7 @@ form input[type="submit"]{
     border-radius: 5px;
     display: block;
     color: white;
-    background-color: rgb(37, 22,78);
+    background-color:rgb(25, 25, 102) ;
 }
 form input[type="submit"]:hover{
     cursor: pointer;
@@ -47,4 +51,8 @@ textarea{
     margin: 8px 0;
     resize: none;
     display: block;
+}
+.asunto{
+    padding: 20px 40px;
+
 }

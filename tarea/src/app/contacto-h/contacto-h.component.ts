@@ -7,13 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactoHComponent  {
 
- nombre='Paola Luna'
- imagen:string= ""
+ nombre='Paola Luna González'
+ servicios:Array<string>=["Contabilidad","Auditoria","Administración de Empresas"]
+ mostrarimagen:boolean= true
  
- mostrarimagen(){
- this.imagen="mostar"
+ ocultarimagen(){
+  this.mostrarimagen=!this.mostrarimagen
  }
-ocultarimagen(){
-  this.imagen="ocultar"
-}
 }
