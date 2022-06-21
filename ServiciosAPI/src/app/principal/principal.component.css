@@ -1,0 +1,19 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    text-align: center;
+    display: block;
+    border-radius: 50 0%;
+    box-shadow: 10px 5px 5px 5px crimson;
+    background-color: bisque;
+    padding: 20px 40px;
+    color: brown;
+    width: 200px;
+    margin-left: 550px;
+
+}
