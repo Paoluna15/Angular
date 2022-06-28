@@ -1,11 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-principal-h',
   templateUrl: './principal-h.component.html',
   styleUrls: ['./principal-h.component.css']
 })
-export class PrincipalHComponent implements OnInit {
+export class PrincipalHComponent  {
+  @Input() nombre:string=''
 
   constructor() { }
 
