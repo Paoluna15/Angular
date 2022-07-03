@@ -5,7 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './secundario.component.html',
   styleUrls: ['./secundario.component.css']
 })
-export class SecundarioComponent implements OnInit {
+export class SecundarioComponent {
+  informacionRecibida:string=''
+
+recibirNombre(nombre:string) {
+this.informacionRecibida=nombre
+}
 
   constructor() { }
 
