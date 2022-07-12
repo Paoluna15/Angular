@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PrincipalService } from '../principal.service';
 
 @Component({
   selector: 'app-tarjeta',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tarjeta.component.css']
 })
 export class TarjetaComponent implements OnInit {
-
-  constructor() { }
+  nombreRecibido:string=""
+  constructor(private variableServicio:PrincipalService) { 
+    this.nombreRecibido=variableServicio.nombre
+  }
+   
 
   ngOnInit(): void {
   }

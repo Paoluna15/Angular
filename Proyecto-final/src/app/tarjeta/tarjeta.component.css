@@ -1,0 +1,20 @@
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    
+}
+.tarjeta img{
+   width: 220px;
+   height: 220px;
+}
+.tarjeta{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+}
+.iconos{
+   align-items: center;
+   width: 10px;
+   height: 10px;
+}
