@@ -1,0 +1,5 @@
+
+<div class="cards">
+<app-tarjeta *ngFor="let juego of informacionRecibida.results"
+[imagenjuego]="juego.background_image" [nombrejuego]="juego.name"></app-tarjeta>
+</div>

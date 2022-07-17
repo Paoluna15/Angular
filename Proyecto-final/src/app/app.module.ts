@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TarjetaComponent } from './tarjeta/tarjeta.component';
 import { InformacionComponent } from './informacion/informacion.component';
+import {HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
+import { DetallesComponent } from './detalles/detalles.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     TarjetaComponent,
-    InformacionComponent
+    InformacionComponent,
+    HomeComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

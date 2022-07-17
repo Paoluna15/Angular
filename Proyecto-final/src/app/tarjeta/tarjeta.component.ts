@@ -7,9 +7,9 @@ import { PrincipalService } from '../principal.service';
   styleUrls: ['./tarjeta.component.css']
 })
 export class TarjetaComponent {
-@Input() imagen:string= ''
-@Input() titulo:string=''
-@Input() descripcion:string=''
+@Input() imagenjuego:string= ''
+@Input() nombrejuego:string=''
+@Input() boton:string=''
   
   
 }

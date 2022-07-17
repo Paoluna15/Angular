@@ -1,0 +1,8 @@
+*{
+    background-color:rgba(253, 231, 106, 0.856) ;
+}
+.cards{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+   
+}
