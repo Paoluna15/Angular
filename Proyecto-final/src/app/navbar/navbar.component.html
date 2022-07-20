@@ -2,10 +2,10 @@
 <div class="nav">
 
     <img class="active" src="/assets/imagen.png" >
-    <a href="#games">Games</a>
+    <a [routerLink]="['home']">Games</a>
     <div class="buscar" >
-      <p class="search" >Search: <input class="busqueda" type="search" name="Search" placeholder="Games">
-        <input class="boton" type="submit" value="Search">
+      <p class="search" >Search: <input #valorBuscado class="busqueda" type="search" name="Search" placeholder="Games">
+        <input (click)="irAbuscar(valorBuscado.value)" class="boton" type="submit" value="Search">
         </p>
     </div>
 

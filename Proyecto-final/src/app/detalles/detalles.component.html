@@ -1,1 +1,10 @@
-<p>detalles works!</p>
+ <div class="contenedor">
+ <img [src]="inforecibida.background_image">
+ <h1>{{inforecibida.name}}</h1>
+ 
+  <div class="info" [innerHTML]="inforecibida.description"></div>
+  
+  <h3>Fecha de creación del juego:</h3>
+ 
+  <p>{{inforecibida.released}}</p>
+</div>

@@ -1,0 +1,35 @@
+
+.contenedor{
+    background-color:rgba(253, 231, 106, 0.856)
+}
+img{
+    height: 400px;
+    width: 100%;
+}
+h1{
+    margin-top: 15px;
+    text-align: center;
+    font-family: fantasy;
+    color: rgba(29, 28, 2, 0.74);
+}
+h3{
+    margin-left: 25px;
+    margin-top: 15px;
+    font-weight: 1000;
+    font-family: fantasy;
+    color: rgba(29, 28, 2, 0.74);
+}
+p{
+    margin-top: 15px;
+    font-size: 25px;
+    margin-left: 25px;
+    
+}
+.info{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
